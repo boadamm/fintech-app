@@ -41,3 +41,7 @@ yarn-error.*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Firebase configuration
+google-services.json
+GoogleService-Info.plist

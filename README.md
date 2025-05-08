@@ -170,6 +170,18 @@ You can obtain these API keys by:
 - **Alpha Vantage**: Visit [Alpha Vantage](https://www.alphavantage.co/support/#api-key) to get a free API key
 - **Firebase**: Create a project in the [Firebase Console](https://console.firebase.google.com/) and get your configuration from Project Settings
 
+## Firebase Configuration
+
+This project uses Firebase for authentication and database functionality. To set up Firebase for your own version of this app:
+
+1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+2. Register your app with Firebase
+3. Download the `google-services.json` file for Android
+4. Place it in the root directory of the project
+5. You can use `google-services.example.json` as a template for the expected format
+
+Note: The actual `google-services.json` file is excluded from version control to protect sensitive API keys. You will need to create your own to run the app.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
