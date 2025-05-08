@@ -178,9 +178,10 @@ This project uses Firebase for authentication and database functionality. To set
 2. Register your app with Firebase
 3. Download the `google-services.json` file for Android
 4. Place it in the root directory of the project
-5. You can use `google-services.example.json` as a template for the expected format
+5. Create a `.firebaserc` file based on the `.firebaserc.example` template and add your Firebase project ID
+6. You can use `google-services.example.json` as a template for the expected format
 
-Note: The actual `google-services.json` file is excluded from version control to protect sensitive API keys. You will need to create your own to run the app.
+Note: The actual `google-services.json` and `.firebaserc` files are excluded from version control to protect sensitive information. You will need to create your own to run the app.
 
 ## License
 

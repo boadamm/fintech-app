@@ -45,3 +45,4 @@ yarn-error.*
 # Firebase configuration
 google-services.json
 GoogleService-Info.plist
+.firebaserc
